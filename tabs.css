@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    gap: 35px;
+    margin-top: 50px;
+}
+.paragraphs-content{
+    display: none;
+    width: 200px;
+}
+.paragraphs .active{
+    display: block;
+}
+.buttons{
+    display: flex;
+    gap: 12px;
+}
+.buttons button{
+    padding: 5px 10px 5px 10px;
+}
